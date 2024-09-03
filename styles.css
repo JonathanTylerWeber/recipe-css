@@ -1,0 +1,88 @@
+body {
+  background-color: hsl(46, 41%, 87%);
+  display: flex;
+  justify-content: center;
+}
+.container {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.card {
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+  max-width: 650px;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  font-family: 'Young Serif', serif; 
+}
+
+h2 {
+  color: hsl(332, 51%, 32%);
+}
+
+.prep {
+  background-color: hsl(330, 100%, 98%);
+  padding: .5em;
+  padding-left: 2em;
+  border-radius: 10px;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  font-family: 'Outfit', sans-serif;
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+p, li {
+  font-family: 'Outfit', sans-serif;
+  color: hsl(0, 0%, 40%);
+}
+
+li {
+  margin-bottom: .5em;
+}
+
+b {
+  color: black;
+}
+
+.nutrition-item {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.label {
+  grid-area: 1 / 1 / 2 / 2;
+  margin-left: 3em;
+  font-family: 'Outfit', sans-serif;
+}
+
+.value {
+  grid-area: 1 / 4 / 2 / 4;
+  font-family: 'Outfit', sans-serif;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+hr {
+  margin: 1em;;
+}
+
+
+.attribution {
+  margin: 2em;
+}
